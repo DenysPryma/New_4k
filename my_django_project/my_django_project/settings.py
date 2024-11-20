@@ -74,6 +74,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'my_django_project.wsgi.application'
 
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Your Project API',
+    'DESCRIPTION': 'Your project description',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    # OTHER SETTINGS
+}
+
+
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
